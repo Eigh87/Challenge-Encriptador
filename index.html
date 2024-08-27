@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <div class="left">
+            <h1>El Encriptador!!</h1>
+            <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="buttons">
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+            <div class="nota">
+                <p>Solo ingresa letras misnusculas sin simbolos especiales</p>
+            </div>
+            
+            <div class="message">
+                <p id="outputText">Ingresa el texto que desees encriptar o desencriptar.</p>
+                
+            </div>
+        </div>
+        <div class="right">
+            <img id="image" src="image1.png" alt="Imagen 1">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
